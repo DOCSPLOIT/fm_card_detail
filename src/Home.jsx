@@ -67,10 +67,10 @@ function Home() {
         </div>
       </div>
 
-      <Route href={"/"}>
+      <Route href={"/fm_card_detail"}>
         <Form formik={formik} />
       </Route>
-      <Route href={"/thankyou"}>
+      <Route href={"/fm_card_detail/thankyou"}>
         <ThankYou />
       </Route>
     </div>
