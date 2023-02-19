@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://docpsloit.github.io/fm_card_detail",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
