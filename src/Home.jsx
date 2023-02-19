@@ -33,7 +33,7 @@ function Home() {
         .required("Can't be blank"),
     }),
     onSubmit() {
-      ctx.navigate("/thankyou");
+      ctx.navigate("/fm_card_detail/thankyou");
     },
   });
   return (
@@ -67,7 +67,7 @@ function Home() {
         </div>
       </div>
 
-      <Route href={"/fm_card_detail"}>
+      <Route href={"/fm_card_detail/"}>
         <Form formik={formik} />
       </Route>
       <Route href={"/fm_card_detail/thankyou"}>
